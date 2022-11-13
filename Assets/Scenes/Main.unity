@@ -7557,7 +7557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635758822398623344, guid: b80fa22d5ba5aba469a7c48532315337, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3635758822398623345, guid: b80fa22d5ba5aba469a7c48532315337, type: 3}
       propertyPath: m_RootOrder
@@ -7565,11 +7565,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635758822398623345, guid: b80fa22d5ba5aba469a7c48532315337, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 3635758822398623345, guid: b80fa22d5ba5aba469a7c48532315337, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.41
+      value: 2.03
       objectReference: {fileID: 0}
     - target: {fileID: 3635758822398623345, guid: b80fa22d5ba5aba469a7c48532315337, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7602,6 +7602,10 @@ PrefabInstance:
     - target: {fileID: 3635758822398623345, guid: b80fa22d5ba5aba469a7c48532315337, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635758822398623347, guid: b80fa22d5ba5aba469a7c48532315337, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3635758822398623347, guid: b80fa22d5ba5aba469a7c48532315337, type: 3}
       propertyPath: m_SleepingMode
