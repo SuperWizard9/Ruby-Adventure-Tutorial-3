@@ -82,10 +82,13 @@ public class EnemyController : MonoBehaviour
     public void Fix()
     {
         broken = false;
+        GameObject.Find("Ruby").GetComponent<RubyController>().RobotsFixed++;
         rigidbody2D.simulated = false;
         //optional if you added the fixed animation
-        animator.SetTrigger("Fixed");
-        
+        animator.SetBool("Fixed",true);
+        if(smokeEffect!=null){
+
         smokeEffect.Stop();
+        }
     }
 }

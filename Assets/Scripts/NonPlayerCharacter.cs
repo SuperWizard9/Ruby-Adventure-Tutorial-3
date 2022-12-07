@@ -1,10 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NonPlayerCharacter : MonoBehaviour
 {
@@ -34,5 +31,8 @@ public class NonPlayerCharacter : MonoBehaviour
     {
         timerDisplay = displayTime;
         dialogBox.SetActive(true);
+        if ( GameObject.Find("Ruby").GetComponent<RubyController>().RobotsFixed ==5){
+            SceneManager.LoadScene("Level2");
+        }
     }
 }
